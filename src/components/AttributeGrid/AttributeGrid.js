@@ -9,7 +9,7 @@ const AttributeGrid = (props) => {
     <div className={styles.root}>
       <Attribute
         icon={'delivery'}
-        title={'transport brenda dhe jashtë Kosovës'}
+        title={'Transport brenda dhe jashtë Kosovës'}
         subtitle={'Kliko për më shumë!'}
       />
       <Attribute
