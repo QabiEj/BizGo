@@ -69,7 +69,7 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>{Prano letra njoftuese</span>
+                <span className={styles.linkTitle}>{Prano-letra-njoftuese}</span>
                 <p className={styles.promoMessage}>
                   Prano ofertat eksluzive i pari!
                 </p>
