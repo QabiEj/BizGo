@@ -39,8 +39,8 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          Produkte të mira dhe të lira te{' '}
+          <span className={styles.gold}>GoBiz.</span>
         </p>
         <p>
           wear by <span className={styles.gold}>sunspel</span> and{' '}
