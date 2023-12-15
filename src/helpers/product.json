@@ -23,22 +23,22 @@
         "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
+        "name": "Maicë e thjeshtë",
+        "price": 2.50,
+        "alt": "classic t-shirt",
         "image": "/products/shirt1.jpg",
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
+        "name": "Maicë e thjeshtë 2",
+        "price": 2.50,
         "alt": "classic t-shirt 2",
         "image": "/products/shirt2.jpg",
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Classic T-Shirt",
-        "price": 75,
+        "name": "Maicë e thjeshtë 3",
+        "price": 2.50,
         "alt": "classic t-shirt 3",
         "image": "/products/shirt3.jpg",
         "tags": ["shirt", "men"]
