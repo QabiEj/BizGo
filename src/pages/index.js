@@ -98,7 +98,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'rreth GoBiz'}
         quote={
           '“Ne besojmë në dy gjëra: kërkimin e cilësisë në çdo gjë që bëjmë dhe kujdesin për njëri-tjetrin.”'
         }
