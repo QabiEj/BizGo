@@ -79,7 +79,7 @@ const IndexPage = () => {
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
             title={'Produkte kualitative'}
-            description={`N`}
+            description={`Çmime të volitshme`}
             textLink={'shop now'}
             link={'/shop'}
           />
