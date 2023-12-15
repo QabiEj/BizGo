@@ -136,10 +136,10 @@ const Footer = (prop) => {
           <div className={styles.contentBottom}>
             <div className={styles.settings}>
               <Dropdown
-                label={'Country/Region'}
+                label={'Shteti/Regjioni'}
                 optionList={Config.currencyList}
               />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
+              <Dropdown label={'Gjuha'} optionList={Config.languageList} />
             </div>
             <div className={styles.copyrightContainer}>
               <div className={styles.creditCardContainer}>

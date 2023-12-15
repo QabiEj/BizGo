@@ -17,16 +17,16 @@ const AccountSuccessPage = (props) => {
           </p>
           <div className={styles.actionContainer}>
             <ActionCard
-              title={'Accounts'}
+              title={'Llogaritë'}
               icon={'user'}
-              subtitle={'Check your account settings'}
+              subtitle={'Shiko preferencat e llogarisë'}
               link={'/account/settings'}
             />
 
             <ActionCard
-              title={'Shop'}
+              title={'Blej'}
               icon={'bag'}
-              subtitle={'Continue Shopping'}
+              subtitle={'Vazhdo blerjen'}
               link={'/shop'}
             />
           </div>
