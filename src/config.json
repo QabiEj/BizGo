@@ -35,28 +35,28 @@
           "link": "/blog"
         },
         {
-          "text": "Politikat e privatsisë",
+          "text": "Politikat e privatësisë",
           "link": "/support#policy"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "Mbështetja",
       "links": [
         {
           "text": "FAQ",
           "link": "/faq"
         },
         {
-          "text": "Contact Us",
+          "text": "Na kontaktoni",
           "link": "/support#contact"
         },
         {
-          "text": "Shipping & Returns",
+          "text": "Dërgesat & Kthimet",
           "link": "/support#returns"
         },
         {
-          "text": "How to use this theme",
+          "text": "Si ta navigoni faqen!",
           "link": "/how-to-use"
         }
       ]

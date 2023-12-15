@@ -69,10 +69,9 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
+                <span className={styles.linkTitle}>{Prano letra njoftuese</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
+                  Prano ofertat eksluzive i pari!
                 </p>
                 <form
                   className={styles.newsLetterForm}
@@ -168,12 +167,12 @@ const Footer = (prop) => {
               </div>
               <span>
                 {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
+                <Button target={true} href="https://shabanej.wordpress.com/">
+                  Qabi.
                 </Button>{' '}
                 Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
+                <Button target={true} href="https://shabanej.wordpress.com/">
+                  QabiDev.™
                 </Button>
               </span>
             </div>
