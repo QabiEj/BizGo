@@ -43,7 +43,7 @@ const IndexPage = () => {
           <span className={styles.gold}>GoBiz.</span>
         </p>
         <p>
-          Veshjet më të mira të zgjedhura nga <span className={styles.gold}>En</span> and{' '}
+          Veshjet më të mira të zgjedhura nga <span className={styles.gold}>En</span> dhe{' '}
           <span className={styles.gold}>Qabi</span>
         </p>
       </div>
