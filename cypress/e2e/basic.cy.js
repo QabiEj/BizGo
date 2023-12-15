@@ -5,6 +5,6 @@ describe('sample render test', () => {
 
   it('displays the title text', () => {
     cy.get('h2')
-    .contains('Zbulo oferat e reja dimër 2023');
+    .contains('Shop online');
   })
 }) 
