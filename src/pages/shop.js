@@ -83,9 +83,9 @@ const ShopPage = (props) => {
             <ProductCardGrid data={data}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>6 nga 456</span>
             <Button fullWidth level={'secondary'}>
-              LOAD MORE
+              Shiko më shumë
             </Button>
           </div>
         </Container>
