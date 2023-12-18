@@ -44,7 +44,7 @@
         "tags": ["shirt", "men"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman1.jpeg",
@@ -52,14 +52,14 @@
         "meta": "+ 2 colors"
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman2.jpeg",
         "tags": ["woman"]
     },    
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 13.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman3.jpeg",
@@ -67,14 +67,14 @@
         "meta": "+ 2 colors"
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman4.jpeg",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman5.jpeg",
@@ -83,21 +83,21 @@
 
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 21,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman6.jpeg",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman3.jpeg",
         "tags": ["woman"]
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 15.90,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman2.jpeg",
@@ -106,7 +106,7 @@
 
     },
     {
-        "name": "Relaxed-fit graphic T-shirt",
+        "name": "Bluzë grafike me përshtatje të relaksuar",
         "price": 21,
         "alt": "relaxed t shirt woman",
         "image": "/products/woman1.jpeg",
