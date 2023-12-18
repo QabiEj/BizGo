@@ -46,7 +46,7 @@ const ShopPage = (props) => {
           maxWidth={'650px'}
           name={`Trikot për femra`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Shihni trikot tona të femrave për veshje moderne.'
           }
         />
         <Container size={'large'} spacing={'min'}>
