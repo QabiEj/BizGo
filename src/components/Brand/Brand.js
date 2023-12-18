@@ -29,7 +29,7 @@ const Brand = (props) => {
     BIZGO
   </text>
   
-</svg>;
+</svg>
 
     </div>
   );
