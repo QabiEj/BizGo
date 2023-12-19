@@ -12,32 +12,28 @@ const SamplePage = (props) => {
         <Container>
           <div className={styles.blogContainer}>
             <Blog
-              category={'design'}
-              title={'Friends of Sydney: Flora Fricker'}
+              category={'dizajn'}
+              title={'Dizajnerët e BizGo: €A3I'}
               image={'/blogFeatured.png'}
               alt={''}
             >
               <div className={styles.content}>
                 <p className={styles.excerpt}>
-                  London-based floral designer Flora Fricker champions seasonal
-                  British flowers and UK producers in her beautiful and
-                  sustainable creations. This season, we worked with Flora to
-                  style Sunspel stores for Christmas, for which she produced
-                  eye-catching sustainably sourced wreaths.
+                  I vendosur në Prishtinë, €A3I ka angazhuar 
+                  disa dizajnerë por që ruhet privatësia e të dhënave të tyre.
                 </p>
                 <p className={styles.blogParagraph}>
-                  Delaware limited liability company (The Sydney) collects
-                  personal information that you voluntarily provide when
-                  applying or registering for an account with The Upside or
-                  making a purchase on The Upside website; www.theupside.com
-                  (the Website).
+                Kompania me përgjegjësi të kufizuara BizGo
+                mbledh të dhënat personale që ju jepni vullnetarisht kur 
+                aplikoni ose regjistroheni për një llogari ose 
+                kur bëni një blerje në faqen tonë të internetit; www.bizgo.netlify.app.
                 </p>
                 <p className={styles.blogParagraph}>
-                  This Privacy Policy (Privacy Policy) outlines how your
+                  This Privacy Policy outlines how your
                   information is collected, used and disclosed when you access
                   or use our Services as defined in our Terms. This information
                   is collected, used and disclosed in accordance with the
-                  Privacy Act 1988 (Cth) (Privacy Act).
+                  Privacy Act 1988 (Cth).
                 </p>
                 <p className={styles.blogParagraph}>
                   This Privacy Policy is incorporated by reference into our

@@ -19,10 +19,10 @@ const BlogPage = (props) => {
         <Hero
           maxWidth={'400px'}
           image={'/blogCover.png'}
-          title={`The new standard of Closing`}
-          ctaLink={'read story'}
+          title={`Standarti i ri i modelimit`}
+          ctaLink={'lexo storien'}
           ctaTo={'/blog/sample'}
-          header={'design'}
+          header={'dizajni'}
         />
 
         <div className={styles.navContainer}>
@@ -30,31 +30,31 @@ const BlogPage = (props) => {
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            All Posts
+            Të gjitha postimet
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Design
+            Dizajni
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Collaboration
+            Bashkëpunimi
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            Interview
+            Intervista
           </ThemeLink>
           <ThemeLink
             onClick={() => navigate('/blog/sample')}
             to={'/blog/sample'}
           >
-            News
+            Të rejat
           </ThemeLink>
         </div>
 
