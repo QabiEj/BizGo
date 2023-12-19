@@ -11,7 +11,7 @@ const MiniCart = (props) => {
   const sampleCartItem = {
     image: '/products/pdp1.jpeg',
     alt: '',
-    name: 'Lambswool Crew Neck Jumper',
+    name: 'Xhamper',
     price: 220,
     color: 'Anthracite Melange',
     size: 'xs',
