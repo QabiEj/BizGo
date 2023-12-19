@@ -31,14 +31,14 @@ const ShopV2Page = (props) => {
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
-            crumbs={[{ link: '/', label: 'Home' }, { label: 'Woman' }]}
+            crumbs={[{ link: '/', label: 'Faqja kryesore' }, { label: 'Femra' }]}
           />
         </Container>
         <Banner
           maxWidth={'650px'}
-          name={`Woman`}
+          name={`Femra`}
           subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
+            'Shikoni trikot tona të femrave për veshje moderne.'
           }
         />
         <Container size={'large'} spacing={'min'}>
@@ -71,15 +71,15 @@ const ShopV2Page = (props) => {
             </div>
             <div>
               <div className={styles.metaContainer}>
-                <span className={`standardSpan`}>476 items</span>
+                <span className={`standardSpan`}>476 njësi</span>
               </div>
               <ProductCardGrid height={'440px'} data={data}></ProductCardGrid>
             </div>
           </div>
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
+            <span>6 nga 456</span>
             <Button fullWidth level={'secondary'}>
-              LOAD MORE
+              Shiko më shumë
             </Button>
           </div>
         </Container>

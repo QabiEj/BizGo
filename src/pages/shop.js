@@ -51,7 +51,7 @@ const ShopPage = (props) => {
         />
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>476 items</span>
+            <span className={styles.itemCount}>476 njësi</span>
             <div className={styles.controllerContainer}>
               <div
                 className={styles.iconContainer}
@@ -64,7 +64,7 @@ const ShopPage = (props) => {
               <div
                 className={`${styles.iconContainer} ${styles.sortContainer}`}
               >
-                <span>Sort by</span>
+                <span>Radhiti në bazë të</span>
                 <Icon symbol={'caret'} />
               </div>
             </div>
@@ -79,7 +79,7 @@ const ShopPage = (props) => {
             <Chip name={'S'} />
           </div>
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
+            <span className={styles.mobileItemCount}>476 njësi</span>
             <ProductCardGrid data={data}></ProductCardGrid>
           </div>
           <div className={styles.loadMoreContainer}>
