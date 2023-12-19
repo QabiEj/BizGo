@@ -13,7 +13,7 @@ const MiniCart = (props) => {
     alt: '',
     name: 'Xhamper',
     price: 220,
-    color: 'Anthracite Melange',
+    color: 'E kaltër e mbyllur',
     size: 'xs',
   };
 
