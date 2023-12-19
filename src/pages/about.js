@@ -49,15 +49,13 @@ const AboutPage = (props) => {
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
               Themeluar në vitin 2023 BizGo është një brand inovativ i ri Kosovar is an innovative British brand me një avantazh 
-              bashkohorë. Ne bëjmë modele moderne We make timeless everyday luxury clothing.
+              bashkohorë. Ne bëjmë modele moderne të kohës.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
+              Kemi bërë disa nga modelet më të reja të maicave 
+              dhe vazhdojmë të shfyrtëzojmë kohën në perfeksionimin e kualitetit të pambukut.
             </p>
           </div>
         </Container>
@@ -71,47 +69,27 @@ const AboutPage = (props) => {
             <h3>Our Values</h3>
             <div ref={valuesRef}>
               <p>
-                Sunspel produced some of the world's earliest T-shirts. In the
-                late 1800s the business made luxury tunics and undershirts from
-                lightweight Sea Island cotton for export to the Far East and
-                other warm climates. While these garments initially had silk
-                buttoned plackets, these were removed in the early 1900s and
-                replaced with simple bound necks to reduce manufacturing costs -
-                creating the T-shirt. We've supplied the world as the T-shirt
-                has evolved from underwear to outerwear, from symbol of youthful
-                rebellion to everyday wardrobe staple, and we've spent decades
-                refining its every last aspect.
+                BizGo prodhoi disa nga modelet më të reja moderne të maicave.
               </p>
               <ol>
-                <li>Be an ecowear</li>
-                <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Bëhu një eko-modern</li>
+                <li>E sofistikuar dhe jo e prodhuar në masë të madhe</li>
+                <li>Vetëm materialet natyrore</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>
-            <h3>Sustainability</h3>
+            <h3>Qëndrueshmeria</h3>
             <div id={'#sustainability'} ref={sustainabilityRef}>
               <p>
-                Our founder, Thomas Hill, had both an eye for quality and a
-                desire to innovate. As well as using the finest fibres such as
-                Sea Island cotton, cashmere and silk, he invented his own
-                fabrics. Sunspel continues this commitment to innovation today
-                and our unique fabrics include: Q100 Sea Island cotton, Q82
-                Supima cotton, Q75 warp knit mesh cotton and Q14 warp knit
-                cellular cotton. The technology behind these fabrics remains
-                unchanged today and all Sunspel products use the finest cottons,
-                wools and fibres.
+                Themeluesi ynë, €A3I, kishte një sy për kualitet dhe një dëshirë për inovacion.
               </p>
               <p>
-                Made in Long Eaton, England and crafted from our luxurious long
-                staple Supima cotton for unparalleled softness, comfort and
-                durability, the Sunspel T-shirt has a classic fit and only the
-                most essential details.{' '}
+                E prodhuar në Prishtinë, Kosovë, e krijuar nga pambuku ynë luksoz Supima për butësi, 
+                rehati dhe qëndrueshmëri të pashoqe, bluza BizGo ka një përshtatje klasike dhe thjeshtë detajet më thelbësore.{' '}
               </p>
               <p>
-                With over 100 years spent perfecting fabric, fit and style, the
-                Sunspel Classic T-shirt is recognised as the finest in the
-                world.
+                Me një përvojë në fushën e shitjeve për më shumë se 10 vite, themeluesi ynë pretendon në 
+                zgjerimin e shpejtë të shitjeve brenda dhe jashtë vendit.
               </p>
             </div>
           </div>
