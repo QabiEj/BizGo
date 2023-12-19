@@ -79,9 +79,9 @@ const LoginPage = (props) => {
 
       <div className={styles.root}>
         <div className={styles.loginFormContainer}>
-          <h1 className={styles.loginTitle}>Login</h1>
+          <h1 className={styles.loginTitle}>Qasja</h1>
           <span className={styles.subtitle}>
-            Please enter your e-mail and password
+            Ju lutem shkruani emailin dhe fjalëkalimin
           </span>
           <form
             noValidate
@@ -107,21 +107,21 @@ const LoginPage = (props) => {
             />
             <div className={styles.forgotPasswordContainer}>
               <Link to={'/forgot'} className={styles.forgotLink}>
-                Forgot Password
+                Keni harruar fjalëkalimin
               </Link>
             </div>
 
             <Button fullWidth type={'submit'} level={'primary'}>
-              LOG IN
+              Qasja
             </Button>
-            <span className={styles.createLink}>New Customer? </span>
+            <span className={styles.createLink}>Konsumator i ri? </span>
             <Button
               type={'button'}
               onClick={() => navigate('/signup')}
               fullWidth
               level={'secondary'}
             >
-              create an account
+              krijoni një llogari
             </Button>
           </form>
         </div>
