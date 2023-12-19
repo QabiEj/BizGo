@@ -22,7 +22,7 @@ const SearchPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <Breadcrumbs
             crumbs={[
-              { link: '/', label: 'Home' },
+              { link: '/', label: 'Faqja kryesore' },
               { label: `Search results for '${searchQuery}'` },
             ]}
           />

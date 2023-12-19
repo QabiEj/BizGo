@@ -35,9 +35,9 @@ const ShopPage = (props) => {
           <div className={styles.breadcrumbContainer}>
             <Breadcrumbs
               crumbs={[
-                { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
-                { label: 'Sweaters' },
+                { link: '/', label: 'Faqja kryesore' },
+                { link: '/', label: 'Femra' },
+                { label: 'Trikot' },
               ]}
             />
           </div>
