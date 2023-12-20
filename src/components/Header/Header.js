@@ -29,9 +29,9 @@ const Header = (prop) => {
   const searchRef = createRef();
   const bannerMessage = 'Transport brenda dhe jashtë Kosovës';
   const searchSuggestions = [
-    'Oversize sweaters',
-    'Lama Pajamas',
-    'Candles Cinnamon',
+    'Xhampera batall',
+    'Pixhame',
+    'Qirinjë kanellë',
   ];
 
   const handleHover = (navObject) => {

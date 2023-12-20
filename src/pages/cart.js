@@ -14,9 +14,9 @@ const CartPage = (props) => {
   const sampleCartItem = {
     image: '/products/pdp1.jpeg',
     alt: '',
-    name: 'Lambswool Crew Neck Jumper',
+    name: 'Xhamper',
     price: 220,
-    color: 'Anthracite Melange',
+    color: 'E kaltër e mbyllur',
     size: 'XS',
   };
 
@@ -29,7 +29,7 @@ const CartPage = (props) => {
               <Link className={styles.shopLink} to={'/shop'}>
                 <Icon symbol={'arrow'}></Icon>
                 <span className={styles.continueShopping}>
-                  Continue Shopping
+                  Vazhdo blerjen
                 </span>
               </Link>
             </div>
