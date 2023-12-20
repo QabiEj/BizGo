@@ -11,7 +11,7 @@ const FaqPage = (props) => {
       <div className={styles.root}>
         <Banner
           maxWidth={'650px'}
-          name={`Frequently Asked Questions`}
+          name={`Pyetjet e bëra më shpesh`}
           bgImage={'/faqCover.png'}
           color={'var(--standard-white)'}
           height={'350px'}
