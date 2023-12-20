@@ -52,7 +52,7 @@ const SettingsPage = (props) => {
       if (validateEmail(updateForm.email) !== true) {
         validForm = false;
         tempError.email =
-          'Please use a valid email address, such as user@example.com.';
+          'Ju lutemi përdorni një adresë të vlefshme emaili, si p.sh. user@example.com.';
       }
     }
 
@@ -60,12 +60,12 @@ const SettingsPage = (props) => {
       if (validateStrongPassword(updateForm.password) === false) {
         validForm = false;
         tempError.password =
-          'Password must have at least 8 characters, 1 lowercase, 1 uppercase and 1 numeric character.';
+          'Fjalëkalimi duhet të ketë të paktën 8 karaktere, 1 shkronja të vogla, 1 shkronja të mëdha dhe 1 karakter numerik.';
       }
 
       if (updateForm.password !== updateForm.confirmPassword) {
         validForm = false;
-        tempError.confirmPassword = 'Confirm password not the same.';
+        tempError.confirmPassword = 'Konfirmi i fjalëkalimit jo i njëjti.';
       }
     }
 
@@ -83,12 +83,12 @@ const SettingsPage = (props) => {
       <AccountLayout>
         <Breadcrumbs
           crumbs={[
-            { link: '/', label: 'Home' },
-            { link: '/account', label: 'Account' },
-            { link: '/account/settings', label: 'Settings' },
+            { link: '/', label: 'Faqja kryesore' },
+            { link: '/account', label: 'Llogaria' },
+            { link: '/account/settings', label: 'Preferencat' },
           ]}
         />
-        <h1>Settings</h1>
+        <h1>Preferencat</h1>
         <div>
           <form onSubmit={(e) => handleSubmit(e)} noValidate>
             <div className={styles.nameSection}>
@@ -97,33 +97,33 @@ const SettingsPage = (props) => {
                 value={updateForm.firstName}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'input'}
-                labelName={'First Name'}
+                labelName={'Emri'}
               />
               <FormInputField
                 id={'lastName'}
                 value={updateForm.lastName}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'input'}
-                labelName={'Last Name'}
+                labelName={'Mbiemri'}
               />
               <FormInputField
                 id={'email'}
                 value={updateForm.email}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'email'}
-                labelName={'Email'}
+                labelName={'Email adresa'}
                 error={error.email}
               />
             </div>
             <div className={styles.passwordContainer}>
-              <h2>Change Password</h2>
+              <h2>Ndrysho fjalëkalimin</h2>
               <div className={styles.passwordSection}>
                 <FormInputField
                   id={'password'}
                   value={updateForm.password}
                   handleChange={(id, e) => handleChange(id, e)}
                   type={'password'}
-                  labelName={'New Password'}
+                  labelName={'Fjalëkalim i ri'}
                   error={error.password}
                 />
                 <FormInputField
@@ -131,11 +131,11 @@ const SettingsPage = (props) => {
                   value={updateForm.confirmPassword}
                   handleChange={(id, e) => handleChange(id, e)}
                   type={'password'}
-                  labelName={'Confirm Password'}
+                  labelName={'Konfimo fjalëkalimin'}
                   error={error.confirmPassword}
                 />
                 <Button level={'primary'} type={'submit'}>
-                  update
+                  përditëso
                 </Button>
               </div>
             </div>

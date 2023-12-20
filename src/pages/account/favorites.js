@@ -45,12 +45,12 @@ const FavoritesPage = (props) => {
         <Container size={'large'}>
           <Breadcrumbs
             crumbs={[
-              { link: '/', label: 'Home' },
-              { link: '/account/favorites', label: 'Favorites' },
+              { link: '/', label: 'Faqja kryesore' },
+              { link: '/account/favorites', label: 'Të pëlqyerat' },
             ]}
           />
-          <h1>Favorites</h1>
           <div className={styles.favoriteListContainer}>
+          <h1>Të [pëlqyerat</h1>
             <FavoriteCard
               showConfirmDialog={() => setShowDelete(true)}
               {...sampleFavorite1}
@@ -72,17 +72,17 @@ const FavoritesPage = (props) => {
       </div>
       <Modal visible={showDelete} close={() => setShowDelete(false)}>
         <div className={styles.confirmDeleteContainer}>
-          <h4>Remove from Favorites?</h4>
+          <h4>Largoje nga të pëlqyerat?</h4>
           <p>
-            Are you sure you want to remove this from your favorites? You cannot
-            undo this action once you press <strong>'Delete'</strong>
+          Jeni i sigurt që dëshironi ta hiqni këtë nga të preferuarat tuaja? Ju nuk mund 
+          ta zhbëni këtë veprim pasi të shtypni <strong>'Fshije'</strong>
           </p>
           <div className={styles.actionContainer}>
             <Button onClick={() => setShowDelete(false)} level={'primary'}>
-              Delete
+              Fshije
             </Button>
             <Button onClick={() => setShowDelete(false)} level={'secondary'}>
-              Cancel
+              Anulo
             </Button>
           </div>
         </div>
