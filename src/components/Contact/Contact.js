@@ -28,25 +28,25 @@ const Contact = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.section}>
-        <h4>Send Us A Message</h4>
+        <h4>Na dërgoni një mesazh</h4>
         <p>
-          Our Customer Service team are here for all enquiries Monday to Friday,
-          9am - 5pm AEDT (Australian Eastern Daylight Savings Time).
+        Ekipi ynë i Shërbimit të Klientit është këtu për të gjitha pyetjet nga e 
+        hëna deri të premten 9:00 - 16:00 CEST (Koha Standarde e Evropës Qendrore)
         </p>
-        <p>We look forward to hearing from you.</p>
+        <p>Ne presim të dëgjojmë nga ju.</p>
       </div>
 
       <div className={styles.section}>
-        <h4>Phone</h4>
-        <p>+1 424 280 4971</p>
-        <p>Monday to Friday - 9am - 5pm AEDT</p>
+        <h4>Telefoni</h4>
+        <p>+383 45 601 379</p>
       </div>
+        <p>E hënë - E premte 9am - 4pm CEST</p>
 
       <div className={styles.section}>
-        <h4>Email</h4>
+        <h4>Email adresa</h4>
         <p>
-          You can email our Customer Service team at customerservice@example.com
-          or via the contact form below:
+        Ju mund t'i dërgoni email ekipit tonë të Shërbimit të Klientit në butikumaja@gmail.com
+           ose nëpërmjet formularit të kontaktit më poshtë:
         </p>
       </div>
 
@@ -58,7 +58,7 @@ const Contact = (props) => {
               value={contactForm.name}
               handleChange={(id, e) => handleChange(id, e)}
               type={'text'}
-              labelName={'Full Name'}
+              labelName={'Emri i plotë'}
               required
             />
             <FormInputField
@@ -66,7 +66,7 @@ const Contact = (props) => {
               value={contactForm.phone}
               handleChange={(id, e) => handleChange(id, e)}
               type={'number'}
-              labelName={'Phone Number'}
+              labelName={'Numri i telefonit'}
               required
             />
             <FormInputField
@@ -74,7 +74,7 @@ const Contact = (props) => {
               value={contactForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
-              labelName={'Email'}
+              labelName={'Email adresa'}
               required
             />
             <div className={styles.commentInput}>
@@ -83,7 +83,7 @@ const Contact = (props) => {
                 value={contactForm.comment}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'textarea'}
-                labelName={'Comments / Questions'}
+                labelName={'Komentet / Pyetjet'}
                 required
               />
             </div>
@@ -93,7 +93,7 @@ const Contact = (props) => {
             level={'primary'}
             type={'buttonSubmit'}
           >
-            submit
+            dërgo
           </Button>
         </form>
       </div>
