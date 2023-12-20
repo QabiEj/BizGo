@@ -29,7 +29,7 @@ const QuickView = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.titleContainer}>
-        <h4>Select Options</h4>
+        <h4>Zgjedhi opsionet</h4>
       </div>
       <div className={styles.contentContainer}>
         <div className={styles.productContainer}>

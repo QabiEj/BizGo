@@ -19,11 +19,10 @@ const NotFoundPage = () => {
     <Layout disablePaddingBottom>
       <Container size={'medium'}>
         <div className={styles.root}>
-          <h1>404 Error</h1>
-          <h2>Page not found</h2>
+          <h1>404 Gabim</h1>
+          <h2>Faqja nuk u gjet</h2>
           <p>
-            Uh oh, looks like the page you are looking for has moved or no
-            longer exists.
+            Uh oh, duket sikur faqja që po kërkoni ka lëvizur ose nuk ekziston më.
           </p>
           <form onSubmit={(e) => handleSubmit(e)}>
             <div className={styles.searchContainer}>
@@ -34,7 +33,7 @@ const NotFoundPage = () => {
                 type={'text'}
               />
               <Button type={'submit'} level={'primary'}>
-                search
+                kërko
               </Button>
             </div>
           </form>

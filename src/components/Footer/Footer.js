@@ -81,7 +81,7 @@ const Footer = (prop) => {
                     icon={'arrow'}
                     id={'newsLetterInput'}
                     value={email}
-                    placeholder={'Email'}
+                    placeholder={'Email adresa'}
                     handleChange={(_, e) => setEmail(e)}
                   />
                 </form>

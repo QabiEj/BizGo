@@ -27,7 +27,7 @@ const MiniCartItem = (props) => {
           </div>
           <span className={styles.meta}>Color: {color}</span>
           <span className={styles.meta}>
-            Size:
+            Madhësia:
             <span className={styles.size}>{size}</span>
           </span>
         </div>

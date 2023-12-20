@@ -8,8 +8,8 @@ const SizeList = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.sizeLabelContainer}>
-        <span className={styles.label}>Size</span>
-        <span className={`${styles.label} ${styles.guide}`}>Size Guide</span>
+        <span className={styles.label}>Madhësia</span>
+        <span className={`${styles.label} ${styles.guide}`}>Udhëzimi për madhësi</span>
       </div>
       <div className={styles.sizeSelection}>
         {sizeList?.map((sizeOption, index) => {

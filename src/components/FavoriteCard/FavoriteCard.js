@@ -15,16 +15,16 @@ const FavoriteCard = (props) => {
           <img src={img} alt={alt} />
         </div>
         <div className={styles.metaContainer}>
-          <span>Color: {color}</span>
-          <span>Size: {size}</span>
+          <span>Ngjyra: {color}</span>
+          <span>Madhësia: {size}</span>
         </div>
       </div>
       <div className={styles.actionContainer}>
         <span role={'presentation'} onClick={() => setShowQuickView(true)}>
-          Edit
+          Ndrysho
         </span>
         <span role={'presentation'} onClick={showConfirmDialog}>
-          Remove
+          Fshije
         </span>
       </div>
 
