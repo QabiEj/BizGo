@@ -10,16 +10,16 @@ const OrderConfirmPage = (props) => {
     <Layout disablePaddingBottom>
       <Container size={'medium'}>
         <div className={styles.root}>
-          <h1>Thank You!</h1>
+          <h1>Faleminderit!</h1>
           <p>
-            We are now processing your order. If you have any concerns feel free
-            to email us at customerservice@example.com
+          Tani po përpunojmë porosinë tuaj. Nëse keni ndonjë shqetësim mos ngurroni
+             të na dërgoni email në butikumaja@gmail.com
           </p>
           <div className={styles.actionContainer}>
             <ActionCard
-              title={'Order Status'}
+              title={'Statusi i porosisë'}
               icon={'delivery'}
-              subtitle={'Check your order status'}
+              subtitle={'Shiko statusin e porosisë tënde'}
               link={'/account/orders'}
               size={'lg'}
             />

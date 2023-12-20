@@ -22,8 +22,8 @@ const RecentlyViewedPage = (props) => {
       <AccountLayout>
         <Breadcrumbs
           crumbs={[
-            { link: '/', label: 'Home' },
-            { link: '/account', label: 'Account' },
+            { link: '/', label: 'Faqja kryesore' },
+            { link: '/account', label: 'Llogaria' },
             { link: '/account/viewed', label: 'Të shikuara së fundmi' },
           ]}
         />

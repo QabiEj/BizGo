@@ -85,9 +85,9 @@ const OrderPage = (props) => {
       <AccountLayout>
         <Breadcrumbs
           crumbs={[
-            { link: '/', label: 'Home' },
-            { link: '/account', label: 'Account' },
-            { link: '/account/orders/', label: 'Orders' },
+            { link: '/', label: 'Faqja kryesore' },
+            { link: '/account', label: 'Llogaria' },
+            { link: '/account/orders/', label: 'Porositë' },
           ]}
         />
         <h1>Porositë</h1>

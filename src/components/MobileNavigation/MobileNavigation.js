@@ -55,7 +55,7 @@ const MobileNavigation = (props) => {
               <div className={styles.previousIcon}>
                 <Icon symbol={'caret'}></Icon>
               </div>
-              <span>my account</span>
+              <span>llogaria ime</span>
             </div>
           )}
 

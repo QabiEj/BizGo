@@ -10,10 +10,10 @@ const AccountSuccessPage = (props) => {
     <Layout disablePaddingBottom>
       <Container size={'medium'}>
         <div className={styles.root}>
-          <h1>Account Created</h1>
+          <h1>Llogaria u krijua</h1>
           <p>
-            We've sent you a confirmation link to active your account. Please
-            check your email and verify it.
+          Ne ju kemi dërguar një lidhje konfirmimi për të aktivizuar llogarinë tuaj. Ju lutem
+             kontrolloni emailin tuaj dhe verifikojeni.
           </p>
           <div className={styles.actionContainer}>
             <ActionCard

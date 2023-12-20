@@ -120,7 +120,7 @@ const Header = (prop) => {
           <Brand />
           <div className={styles.actionContainers}>
             <button
-              aria-label="Search"
+              aria-label="Kërko"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
                 setShowSearch(!showSearch);
@@ -129,21 +129,21 @@ const Header = (prop) => {
               <Icon symbol={'search'}></Icon>
             </button>
             <Link
-              aria-label="Favorites"
+              aria-label="Të pëlqyerat"
               href="/account/favorites"
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'heart'}></Icon>
             </Link>
             <Link
-              aria-label="Orders"
+              aria-label="Porositë"
               href={isAuth() ? '/login' : '/account/orders/'}
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
             </Link>
             <button
-              aria-label="Cart"
+              aria-label="Shporta"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
                 setShowMiniCart(true);
@@ -167,7 +167,7 @@ const Header = (prop) => {
             showSearch === true ? styles.show : styles.hide
           }`}
         >
-          <h4>What are you looking for?</h4>
+          <h4>Për çfarë po kërkoni?</h4>
           <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
             <FormInputField
               ref={searchRef}
