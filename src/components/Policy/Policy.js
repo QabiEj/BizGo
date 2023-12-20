@@ -7,59 +7,51 @@ const Policy = (props) => {
       <div className={styles.section}>
         <h3>1. Lorem Ipsum</h3>
         <p>
-          Delaware limited liability company (The Sydney) collects personal
-          information that you voluntarily provide when applying or registering
-          for an account with The Upside or making a purchase on The Upside
-          website; www.theupside.com (the Website).
+        Kompania me përgjegjësi të kufizuara BizGo
+                mbledh të dhënat personale që ju jepni vullnetarisht kur 
+                aplikoni ose regjistroheni për një llogari ose 
+                kur bëni një blerje në faqen tonë të internetit; www.bizgo.netlify.app.{' '}
         </p>
         <p>
-          This Privacy Policy (Privacy Policy) outlines how your information is
-          collected, used and disclosed when you access or use our Services as
-          defined in our Terms. This information is collected, used and
-          disclosed in accordance with the Privacy Act 1988 (Cth) (Privacy Act).{' '}
+        Kjo politikë e privatësisë përshkruan se si informacioni juaj mblidhet, 
+                përdoret dhe zbulohet kur ju aksesoni ose përdorni shërbimet tona siç përcaktohet në kushtet tona. 
+                Ky informacion mblidhet, përdoret dhe zbulohet në përputhje me aktet e privatësisë të 
+                legjistlacionit të shtetit.{' '}
         </p>
         <p>
-          This Privacy Policy is incorporated by reference into our Terms. Any
-          capitalized terms not defined in this Policy are defined in the Terms.
-          You agree to comply with all Terms when accessing or using our
-          Services, including this Privacy Policy.
+        Kjo politikë e privatësisë është përfshirë duke iu referuar kushteve tona. 
+                Çdo term që nuk është përcaktuar në këtë politikë përcaktohet në kushtet. 
+                Ju pranoni të pajtoheni me të gjitha kushtet kur hyni ose përdorni shërbimet tona, 
+                duke përfshirë këtë politikë të privatësisë.{' '}
         </p>
       </div>
 
       <div className={styles.section}>
         <h3>2. Lorem Ipsum</h3>
         <p>
-          Our Services, including but not limited to the registration of an
-          account with us or placing of an order, is not intended to be used by
-          children under the age of 13. When a visitor indicates an age under
-          13, the registration process for The Upside website cannot be
-          completed, and no personally identifying information is collected in
-          conjunction with that attempted submission except that we retain
-          e-mail addresses of such persons (and record of access attempts) for
-          purposes of denying registration. Otherwise, we do not knowingly
-          collect personally identifiable information from visitors under the
-          age of 13.
+        Shërbimet tona, duke përfshirë por pa u kufizuar në regjistrimin e një llogarie 
+                me ne ose vendosjen e një porosie, nuk synohen të përdoren nga fëmijët nën moshën 13 vjeç. 
+                Përndryshe,ne nuk mbledhim me vetëdije informacion personal të identifikueshëm nga vizitorët 
+                nën moshën 13 vjeç.{' '}
         </p>
         <p>
-          If you are under 18, any use of our Services must be with the
-          involvement of a parent or guardian. By accessing or using our
-          Website, you warrant and represent to us that you are over the age of
-          18 years and you have the right, authority and legal capacity to enter
-          into a legally binding agreement and to abide by this Privacy Policy.{' '}
+        Nëse jeni nën 18 vjeç, çdo përdorim i shërbimeve tona duhet të jetë me përfshirjen e një prindi 
+                ose kujdestari. Duke hyrë ose duke përdorur faqen tonë të internetit, ju garantoni dhe na tregoni 
+                se jeni mbi moshën 18 vjeç dhe keni të drejtën, autoritetin dhe aftësinë ligjore për të lidhur një 
+                marrëveshje ligjërisht të detyrueshme dhe për t'iu përmbajtur kësaj politike të privatësisë.{' '}
         </p>
         <p>
-          The Upside collects, uses and discloses information regarding users
-          aged 13-18 in the same manner as it does for adults.{' '}
+        BizGo mbledh, përdorë dhe zbulon informacionin lidhur me
+                  përdoruesit e moshave 13-18 në mënyrën e njëjtë siç bën me të rriturit.{' '}
         </p>
       </div>
 
       <div className={styles.section}>
         <h3>3. Lorem Ipsum</h3>
         <p>
-          You must only use our Services in accordance with this Privacy Policy
-          and any applicable law or regulations. You agree to refrain from
-          undertaking any prohibited acts as set out in this Clause 3. You must
-          not (or attempt to):{' '}
+        Ju duhet të përdorni shërbimet tona vetëm në përputhje me këtë Politikë të Privatësisë 
+        dhe çdo ligj ose rregullore në fuqi. Ju pranoni të përmbaheni nga ndërmarrja e ndonjë akti të ndaluar siç 
+        përcaktohet në këtë pikë 3. Ju nuk duhet (ose të përpiqeni të):{' '}
         </p>
         <p>
           (a) interfere with or disrupt the use of Services or the website, in
