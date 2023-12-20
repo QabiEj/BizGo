@@ -23,7 +23,7 @@ const Brand = (props) => {
     y="17"
     fill="currentColor"
     font-family="Arial"
-    font-size="16"
+    font-size="18"
     font-weight="bold"
   >
     BIZGO

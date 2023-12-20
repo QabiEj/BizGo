@@ -12,9 +12,9 @@ const AddNotification = (props) => {
   const sampleCartItem = {
     image: '/products/pdp1.jpeg',
     alt: '',
-    name: 'Lambswool Crew Neck Jumper',
+    name: 'Xhamper',
     price: 220,
-    color: 'Anthracite Melange',
+    color: 'E kaltër e mbyllur',
     size: 'XS',
   };
 
@@ -31,7 +31,7 @@ const AddNotification = (props) => {
         <div className={styles.iconContainer}>
           <Icon symbol={'check'}></Icon>
         </div>
-        <span>Item added to bag</span>
+        <span>Njësia u shtua në qantë</span>
       </div>
 
       <div className={styles.newItemContainer}>
@@ -40,20 +40,20 @@ const AddNotification = (props) => {
         </div>
         <div className={styles.detailContainer}>
           <span className={styles.name}>{sampleCartItem.name}</span>
-          <span className={styles.meta}>Color: {sampleCartItem.color}</span>
-          <span className={styles.meta}>Size: {sampleCartItem.size}</span>
+          <span className={styles.meta}>Ngjyra: {sampleCartItem.color}</span>
+          <span className={styles.meta}>Madhësia: {sampleCartItem.size}</span>
         </div>
       </div>
 
       <div className={styles.actionContainer}>
         <Button onClick={props.openCart} level={'secondary'}>
-          view my bag (1)
+          shiko qantën time(1)
         </Button>
         <Button level="primary" href="/cart">
-          checkout
+          Pagesa
         </Button>
         <div className={styles.linkContainer}>
-          <Link to={'/shop'}>continue shopping</Link>
+          <Link to={'/shop'}>vazhdo blerjen</Link>
         </div>
       </div>
     </div>
