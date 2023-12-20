@@ -54,9 +54,9 @@ const FaqPage = (props) => {
           </div>
 
           <div className={styles.section}>
-            <span>Payment</span>
+            <span>Pagesa</span>
             <div className={styles.subSection}>
-              <h3>Shipping Rates</h3>
+              <h3>Normat e transportit</h3>
               <p>
               Për të shqyrtuar statusin e porosisë suaj, ju lutemi vizitoni "Porositë e mia"
                  seksioni i llogarisë suaj BizGo. Ju duhet të merrni një email
