@@ -54,43 +54,38 @@ const Policy = (props) => {
         përcaktohet në këtë pikë 3. Ju nuk duhet (ose të përpiqeni të):{' '}
         </p>
         <p>
-          (a) interfere with or disrupt the use of Services or the website, in
-          any manner including but not limited to the servicers or networks that
-          host the website;{' '}
+        (a) ndërhyni ose ndërpresni përdorimin e Shërbimeve tona ose faqes së internetit, 
+        në çfarëdo mënyre duke përfshirë, por pa u kufizuar në shërbimet ose
+         rrjetet që presin faqen e internetit;{' '}
         </p>
-        <p>(b) stalk, harass, threaten, intimidate or harm another; </p>
+        <p>(b) kërcënoni, ngacmojoni, frikësoni ose dëmtoni një tjetër; </p>
         <p>
-          (c) pretend to be anyone, or any entity, you are not, you will not
-          impersonate or misrepresent yourself as another person (including
-          celebrities), entity, a The Upside employee, or a civic or government
-          leader, or otherwise misrepresent your affiliation with a person or
-          entity. The Upside reserves the right to reject or block any user
-          which could be deemed to be an impersonation or misrepresentation of
-          your identity, or a misappropriation of another person's name or
-          identity;{' '}
+        (c) pretendoni të jeni dikush, ose ndonjë entitet, që nuk jeni, nuk do të imitoni ose shtrembëroni 
+        veten si një person tjetër (përfshirë të famshëm), një entitet, një punonjës i BizGo-së, ose një
+         drejtues civil ose qeveritar, ose në ndonjë mënyrë tjetër të shtrembëroni përkatësinë tuaj me 
+         një person apo subjekt. BizGo rezervon të drejtën të refuzojë ose bllokojë çdo përdorues që mund 
+         të konsiderohet si një imitim ose keqinterpretim i identitetit tuaj, ose një keqpërdorim i emrit 
+         ose identitetit të një personi tjetër;{' '}
         </p>
         <p>
-          (d) engage in any copyright infringement or other intellectual
-          property infringement, or disclose any trade secret or confidential
-          information in violation of a confidentiality, employment, or
-          non-disclosure agreement or otherwise;{' '}
-        </p>
-        <p>
-          (e) use, distribute, reproduce or commercialize any content from the
-          Website or The Upside service except as permitted by this Policy, by
-          law, and with prior written agreement from The Upside;{' '}
-        </p>
-        <p>
-          (f) transmit any unsolicited advertising, promotional material or
-          other forms of solicitation in connection with your use of the Service
-          without the prior written agreement of The Upside;{' '}
-        </p>
-        <p>
-          (g) forge any TCP-IP packet header or any part of the header
-          information or otherwise putting Information in a header designed to
-          mislead recipients as to the origin of any content transmitted through
-          the Website ("spoofing";);
-        </p>
+           (d) përfshiheni në çdo shkelje të së drejtës së autorit ose shkelje tjetër e pronësisë intelektuale, 
+           ose zbuloni ndonjë sekret tregtar ose informacion konfidencial në shkelje të një marrëveshjeje 
+           konfidencialiteti, punësimi ose ndryshe;{' '}
+         </p>
+         <p>
+           (e) përdorni, shpërndani, riprodhoni ose komercializoni çdo përmbajtje nga faqja e internetit ose 
+           shërbimi BizGo, përveç siç lejohet nga kjo Politikë, me ligj dhe me marrëveshje paraprake me shkrim 
+           nga BizGo;{' '}
+         </p>
+         <p>
+           (f) transmetoni çdo reklamë të pakërkuar, material promovues ose forma të tjera të kërkesës në lidhje 
+           me përdorimin tuaj të Shërbimit pa miratimin paraprak me shkrim të The BizGo;{' '}
+         </p>
+         <p>
+           (g) të falsifikoni çdo titull të paketës TCP-IP ose ndonjë pjesë të informacionit të titullit ose të 
+           vendosni informacione në një titull të krijuar për të mashtruar marrësit në lidhje me origjinën e çdo 
+           përmbajtjeje të transmetuar përmes faqes së internetit ("mashtrim";);
+         </p>
       </div>
     </div>
   );
