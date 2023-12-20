@@ -24,11 +24,11 @@ const RecentlyViewedPage = (props) => {
           crumbs={[
             { link: '/', label: 'Home' },
             { link: '/account', label: 'Account' },
-            { link: '/account/viewed', label: 'Recently Viewed' },
+            { link: '/account/viewed', label: 'Të shikuara së fundmi' },
           ]}
         />
         <div className={styles.root}>
-          <h1>Recently Viewed</h1>
+          <h1>Të shikuara së fundmi</h1>
           <div className={styles.gridContainer}>
             <ProductCardGrid
               spacing={true}
