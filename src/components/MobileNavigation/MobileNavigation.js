@@ -154,16 +154,16 @@ const MobileNavigation = (props) => {
             <>
               <div>
                 <Link to={'/account/orders/'} className={styles.mobileLink}>
-                  Orders
+                  Porositë
                 </Link>
                 <Link to={'/account/address/'} className={styles.mobileLink}>
-                  Addresses
+                  Adresat
                 </Link>
                 <Link to={'/account/settings/'} className={styles.mobileLink}>
-                  Settings
+                  Preferencat
                 </Link>
                 <Link to={'/account/viewed/'} className={styles.mobileLink}>
-                  Recently Viewed
+                  Të shikuara së fundmi
                 </Link>
               </div>
               <div className={styles.navFooter}>
@@ -173,7 +173,7 @@ const MobileNavigation = (props) => {
                   onClick={handleLogout}
                 >
                   <Icon symbol={'logout'} />
-                  <span>Sign out </span>
+                  <span>Dil </span>
                 </div>
               </div>
             </>
