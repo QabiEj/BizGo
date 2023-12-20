@@ -13,21 +13,21 @@ import { isAuth } from '../../helpers/general';
 
 const FavoritesPage = (props) => {
   const sampleFavorite1 = {
-    color: 'Anthracite Melange',
+    color: 'E kaltër e mbyllur',
     size: 'XS',
     img: '/products/shirt1.jpg',
     alt: 'favorite 1',
   };
 
   const sampleFavorite2 = {
-    color: 'Purple Pale',
+    color: 'E vjollce',
     size: 'XS',
     img: '/products/shirt2.jpg',
     alt: 'favorite 2',
   };
 
   const sampleFavorite3 = {
-    color: 'Moss Green',
+    color: 'E gjelbërt',
     size: 'S',
     img: '/products/shirt3.jpg',
     alt: 'favorite 3',
