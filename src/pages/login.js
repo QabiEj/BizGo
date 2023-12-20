@@ -42,7 +42,7 @@ const LoginPage = (props) => {
     }
 
     if (isEmpty(loginForm.password) === true) {
-      tempError.password = 'Field required';
+      tempError.password = 'Fusha kërkohet';
       validForm = false;
     } else {
       tempError.password = '';
@@ -58,7 +58,7 @@ const LoginPage = (props) => {
       } else {
         window.scrollTo(0, 0);
         setErrorMessage(
-          'There is no such account associated with this email address'
+          'Nuk ka llogari të tillë të lidhur me këtë email adresë'
         );
       }
     } else {
