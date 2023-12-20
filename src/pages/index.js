@@ -32,7 +32,7 @@ const IndexPage = () => {
         image={'/banner1.png'}
         title={'Shop online'}
         subtitle={'Zbulo oferat e reja dimër 2023'}
-        ctaText={'shop now'}
+        ctaText={'blej tani'}
         ctaAction={goToShop}
       />
 
@@ -80,7 +80,7 @@ const IndexPage = () => {
             miniImageAlt={'mini highlight image'}
             title={'Produkte kualitative'}
             description={`Çmime të volitshme`}
-            textLink={'shop now'}
+            textLink={'blej tani'}
             link={'/shop'}
           />
         </Container>
