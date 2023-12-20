@@ -50,7 +50,7 @@ const FavoritesPage = (props) => {
             ]}
           />
           <div className={styles.favoriteListContainer}>
-          <h1>Të [pëlqyerat</h1>
+          <h1>Të pëlqyerat</h1>
             <FavoriteCard
               showConfirmDialog={() => setShowDelete(true)}
               {...sampleFavorite1}
