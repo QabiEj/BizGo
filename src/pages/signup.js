@@ -41,24 +41,24 @@ const SignupPage = (props) => {
     const tempError = { ...errorState };
 
     if (isEmpty(signupForm.firstName) === true) {
-      tempError.firstName = 'Field required';
+      tempError.firstName = 'Fusha kërkohet!';
       validForm = false;
     }
 
     if (isEmpty(signupForm.lastName) === true) {
-      tempError.lastName = 'Field required';
+      tempError.lastName = 'Fusha kërkohet!';
       validForm = false;
     }
 
     if (validateEmail(signupForm.email) !== true) {
       tempError.email =
-        'Please use a valid email address, such as user@example.com.';
+        'Ju lutem përdorni një adresë emaili valide, sikur user@example.com.';
       validForm = false;
     }
 
     if (validateStrongPassword(signupForm.password) !== true) {
       tempError.password =
-        'Password must have at least 8 characters, 1 lowercase, 1 uppercase and 1 numeric character.';
+        'Fjalëkalimi duhet të ketë së paku 8 karaktere, 1 me shkronjë të vogël, 1 me shkronjë të madhe and 1 karakter numerik.';
       validForm = false;
     }
 
@@ -76,9 +76,9 @@ const SignupPage = (props) => {
     <Layout disablePaddingBottom={true}>
       <div className={styles.root}>
         <div className={styles.signupFormContainer}>
-          <h1 className={styles.title}>Create Account</h1>
+          <h1 className={styles.title}>Krijo llogari</h1>
           <span className={styles.subtitle}>
-            Please enter your the information below:
+            Ju lutem shkruani të dhënat tuaja më poshtë:
           </span>
           <form
             noValidate
@@ -90,7 +90,7 @@ const SignupPage = (props) => {
               value={signupForm.firstName}
               handleChange={(id, e) => handleChange(id, e)}
               type={'input'}
-              labelName={'First Name'}
+              labelName={'Emri'}
               error={errorForm.firstName}
             />
 
@@ -99,7 +99,7 @@ const SignupPage = (props) => {
               value={signupForm.lastName}
               handleChange={(id, e) => handleChange(id, e)}
               type={'input'}
-              labelName={'Last Name'}
+              labelName={'Mbiemri'}
               error={errorForm.lastName}
             />
 
@@ -108,7 +108,7 @@ const SignupPage = (props) => {
               value={signupForm.email}
               handleChange={(id, e) => handleChange(id, e)}
               type={'email'}
-              labelName={'Email'}
+              labelName={'Email adresa'}
               error={errorForm.email}
             />
 
@@ -117,21 +117,21 @@ const SignupPage = (props) => {
               value={signupForm.password}
               handleChange={(id, e) => handleChange(id, e)}
               type={'password'}
-              labelName={'Password'}
+              labelName={'Fjalëkalimi'}
               error={errorForm.password}
             />
 
             <Button fullWidth type={'submit'} level={'primary'}>
-              create account
+              krijo llogari
             </Button>
-            <span className={styles.reminder}>Have an account?</span>
+            <span className={styles.reminder}>Ke një llogari?</span>
             <Button
               type={'button'}
               onClick={() => navigate('/login')}
               fullWidth
               level={'secondary'}
             >
-              log in
+              qasu
             </Button>
           </form>
         </div>

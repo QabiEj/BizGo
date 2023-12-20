@@ -17,19 +17,19 @@ const AddressPage = (props) => {
   const address1 = {
     name: 'Albin Kurti',
     address: '123 Steam Mill Lane, Haymerket',
-    state: 'NSW',
+    state: 'PR',
     postal: '2000',
-    country: 'Albania',
+    country: 'Kosovë',
     company: '',
   };
 
   const address2 = {
     name: 'Filan Fisteku',
     address: '123 Steam Mill Lane, Haymerket',
-    state: 'NSW',
+    state: 'TR',
     postal: '2000',
     country: 'Albania',
-    company: 'Matter Design',
+    company: 'Kompania Molla',
   };
 
   const [addressList] = useState([address1, address2]);
