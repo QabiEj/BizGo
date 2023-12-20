@@ -18,40 +18,37 @@ const FaqPage = (props) => {
         />
         <Container>
           <div className={styles.section}>
-            <span>Your Orders</span>
+            <span>Porositë tua</span>
             <div className={styles.subSection}>
-              <h3>Deliveries</h3>
+              <h3>Blerjet</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              Për të shqyrtuar statusin e porosisë suaj, ju lutemi vizitoni "Porositë e mia"
+                 seksioni i llogarisë suaj BizGo. Ju duhet të merrni një email
+                 njoftim kur paketa juaj është dërguar. Ju lutemi kontrolloni emailin tuaj
+                dhe filtrin tuaj të mbeturinave.
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+              Ne i dërgojmë të gjitha porositë brenda 24 orëve nga vendosja. Gjatë periudhave tona të shitjeve të mëdha
+               mund të jemi shumë të ngarkuar në fabrikën tonë, porositë mund të zgjasin pak më shumë për t'u dërguar,
+                kështu që ju lutemi shtoni pesë ditë pune për çdo rast.
               </p>
               <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com or call us
-                on +44 (0)115 111 1111.
+              Nëse ka diçka që dëshironi të dini për porosinë tuaj, ju lutemi
+                 na kontaktoni në butikumaja@gmail.com.
               </p>
             </div>
             <div className={styles.subSection}>
-              <h3>Returns & Exchanges</h3>
+              <h3>Kthimet dhe ndryshimet</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              Për të shqyrtuar statusin e porosisë suaj, ju lutemi vizitoni "Porositë e mia"
+                 seksioni i llogarisë suaj BizGo. Ju duhet të merrni një email
+                 njoftim kur paketa juaj është dërguar. Ju lutemi kontrolloni emailin tuaj
+                dhe filtrin tuaj të mbeturinave.
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+              Ne i dërgojmë të gjitha porositë brenda 24 orëve nga vendosja. Gjatë periudhave tona të shitjeve të mëdha
+               mund të jemi shumë të ngarkuar në fabrikën tonë, porositë mund të zgjasin pak më shumë për t'u dërguar,
+                kështu që ju lutemi shtoni pesë ditë pune për çdo rast.
               </p>
             </div>
           </div>
@@ -61,52 +58,49 @@ const FaqPage = (props) => {
             <div className={styles.subSection}>
               <h3>Shipping Rates</h3>
               <p>
-                To review the status of your order please visit the "My Orders"
-                section of your Sunspel Account. You should receive an email
-                notification when your package is dispatched. Please check your
-                email inbox and your junk filter.
+              Për të shqyrtuar statusin e porosisë suaj, ju lutemi vizitoni "Porositë e mia"
+                 seksioni i llogarisë suaj BizGo. Ju duhet të merrni një email
+                 njoftim kur paketa juaj është dërguar. Ju lutemi kontrolloni emailin tuaj
+                dhe filtrin tuaj të mbeturinave.
               </p>
               <p>
-                We dispatch all orders within 24 hours of being placed. During
-                our sale periods it can get very busy in our factory, orders may
-                take a little longer to be dispatched so please add five working
-                days just in case.
+              Ne i dërgojmë të gjitha porositë brenda 24 orëve nga vendosja. Gjatë periudhave tona të shitjeve të mëdha
+               mund të jemi shumë të ngarkuar në fabrikën tonë, porositë mund të zgjasin pak më shumë për t'u dërguar,
+                kështu që ju lutemi shtoni pesë ditë pune për çdo rast.
               </p>
               <p>
-                If there’s something you want to know about your order, please
-                get in touch with us at customerservice@example.com call us on
-                +44 (0)115 111 1111.
+              Nëse ka diçka që dëshironi të dini për porosinë tuaj, ju lutemi
+                 na kontaktoni në butikumaja@gmail.com.
               </p>
             </div>
             <div className={styles.subSection}>
-              <h3>Currency</h3>
+              <h3>Valuta</h3>
               <p>
-                Our website automatically selects the currency that matches your
-                delivery location. You can change this manually in the top left
-                hand corner of the page.
+              Faqja jonë e internetit zgjedh automatikisht monedhën që përputhet me tuajën
+                 vendndodhjen e dorëzimit. Ju mund ta ndryshoni këtë manualisht lart këndi i dorës të majtë
+                 të faqes.
               </p>
               <p>
-                For deliveries to the UK, we will bill you in Pounds Sterling
-                (£), to the European Union in Euros (€), to the US in Dollars
-                ($), and to the Rest of World in Pounds Sterling (£).
+              Për dërgesat në Ballkanin përendimor, ne do t'ju faturojmë në Euro
+                 (€), për Bashkimin Evropian gjithashtu në Euro (€), për SHBA në Dollarë
+                 ($), dhe në pjesën tjetër të botës në Euro (€).
               </p>
               <p>
-                Standard rate VAT is included in all orders to the UK and
-                Europe. Orders to the Rest of the World do not include VAT.
-                Where applicable, you will be responsible for any local country
-                import duty.
+              Norma standarde e TVSH-së përfshihet në të gjitha porositë për në Kosovë dhe
+                 Evropë. Porositë për pjesën tjetër të botës nuk përfshijnë TVSH-në.
+                 Aty ku është e aplikueshme, ju do të jeni përgjegjës për çdo detyrim 
+                 importi të vendit lokal.
               </p>
             </div>
             <div className={styles.subSection}>
-              <h3>Suspect Fraud?</h3>
+              <h3>Dyshoni për mashtrim?</h3>
               <p>
-                Given our high levels of security, it’s very unlikely fraudulent
-                use of your card will take place on our website. But if a
-                fraudulent transaction does take place, first contact your
-                credit or debit card company so they can protect your card and
-                reimburse you. Then let us know at customerservice@example.com
-                and we will work with your card company to minimise any further
-                inconvenience to you.
+              Duke pasur parasysh nivelet tona të larta të sigurisë, ka shumë pak gjasa 
+              që përdorimi mashtrues i kartës suaj të ndodhë në faqen tonë të internetit. 
+              Por nëse ndodh një transaksion mashtrues, fillimisht kontaktoni kompaninë tuaj të 
+              kartave të kreditit ose debitit në mënyrë që ata të mbrojnë kartën tuaj dhe t'ju rimbursojnë. 
+              Më pas na njoftoni në butikumaja@gmail.com dhe ne do të punojmë me kompaninë tuaj të kartës 
+              për të minimizuar çdo shqetësim të mëtejshëm për ju.
               </p>
             </div>
           </div>

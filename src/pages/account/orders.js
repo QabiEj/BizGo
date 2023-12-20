@@ -17,36 +17,36 @@ const OrderPage = (props) => {
     id: '2',
     orderPlaced: 'Oct 12, 2021',
     lastUpdate: 'Oct 12, 2021',
-    status: 'pending',
+    status: 'pritje',
     items: [
       {
         image: '/products/shirt1.jpg',
         alt: 'order 1 product 1',
-        name: 'Lambswool Crew Neck Jumper',
+        name: 'Xhamper',
         quantity: '2',
         price: '100',
       },
       {
         image: '/products/shirt2.jpg',
         alt: 'order 1 product 2',
-        name: 'Lambswool Crew Neck Jumper',
+        name: 'Xhamper',
         quantity: '1',
         price: '300',
       },
     ],
     shippingAddress: {
-      name: 'John Doe',
+      name: 'Filan Fisteku',
       address: '1 Steam Mill Lane, Haymerket',
       postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      state: 'TR',
+      country: 'Albania',
     },
     billingAddress: {
-      name: 'John Doe',
+      name: 'Agim Gashi',
       address: '1 Steam Mill Lane, Haymerket',
       postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      state: 'TR',
+      country: 'Albania',
     },
   };
 
@@ -54,29 +54,29 @@ const OrderPage = (props) => {
     id: '1',
     orderPlaced: 'Oct 11, 2021',
     lastUpdate: 'Oct 11, 2021',
-    status: 'pending',
+    status: 'pritje',
     items: [
       {
         image: '/products/shirt1.jpg',
         alt: 'order 1 product 1',
-        name: 'Lambswool Crew Neck Jumper',
+        name: 'Xhamper',
         quantity: '2',
         price: '100',
       },
     ],
     shippingAddress: {
-      name: 'John Doe',
+      name: 'Fitim Fazliu',
       address: '1 Steam Mill Lane, Haymerket',
       postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      state: 'PR',
+      country: 'Kosova',
     },
     billingAddress: {
-      name: 'John Doe',
+      name: 'Albin Kurti',
       address: '1 Steam Mill Lane, Haymerket',
       postal: '2000',
-      state: 'NSW',
-      country: 'Australia',
+      state: 'PR',
+      country: 'Kosova',
     },
   };
 
@@ -90,12 +90,12 @@ const OrderPage = (props) => {
             { link: '/account/orders/', label: 'Orders' },
           ]}
         />
-        <h1>Orders</h1>
+        <h1>Porositë</h1>
         <div className={`${styles.tableHeaderContainer} ${styles.gridStyle}`}>
-          <span className={styles.tableHeader}>Order #</span>
-          <span className={styles.tableHeader}>Order Placed</span>
-          <span className={styles.tableHeader}>Last Update</span>
-          <span className={styles.tableHeader}>Status</span>
+          <span className={styles.tableHeader}>Porosia #</span>
+          <span className={styles.tableHeader}>Porosia e vendosur</span>
+          <span className={styles.tableHeader}>Ndryshimi i fundit</span>
+          <span className={styles.tableHeader}>Statusi</span>
         </div>
 
         <OrderItem order={sampleOrder1} headerStyling={styles.gridStyle} />
