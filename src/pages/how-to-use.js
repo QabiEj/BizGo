@@ -41,7 +41,7 @@ const HowToUsePage = (props) => {
                 </Button>{' '}
                 dhe modifikuar dhe përdorur nga
                 <Button target={true} href="https://shabanej.wordpress.com/">
-                  €A3I
+                {' '}€A3I
                 </Button>{' '}
                 .
               </p>
