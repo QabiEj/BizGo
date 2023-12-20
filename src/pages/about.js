@@ -66,7 +66,7 @@ const AboutPage = (props) => {
 
         <Container size={'large'} spacing={'min'}>
           <div className={styles.content}>
-            <h3>Our Values</h3>
+            <h3>Vlerat tona</h3>
             <div ref={valuesRef}>
               <p>
                 BizGo prodhoi disa nga modelet më të reja moderne të maicave.
